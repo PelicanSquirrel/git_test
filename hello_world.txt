@@ -1,0 +1,6 @@
+Learning about staging and pushing
+- $ git add <file_name>:  stages the file
+- $ git status: displays the current status 
+    - Red: hasn't been staged for commit
+    - Green: staged for commit
+To stage a file is to put it in a waitng room
