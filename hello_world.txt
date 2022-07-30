@@ -1,6 +1,16 @@
-Learning about staging and pushing
+Learning about staging, commiting, and pushing
+
+First is to get the remote repository
+- $ git clone git@github.com:USER_NAME/REPOSITORY-NAME.git
+
+To stage a file is to put it in a waiting room
 - $ git add <file_name>:  stages the file
 - $ git status: displays the current status 
     - Red: hasn't been staged for commit
     - Green: staged for commit
-To stage a file is to put it in a waitng room
+
+After the file is staged, it can be commited.
+- $ git commit -m "Description of changes"
+
+Finally you can push it
+- $ git push origin main
