@@ -11,6 +11,8 @@ To stage a file is to put it in a waiting room
 
 After the file is staged, it can be commited.
 - $ git commit -m "Description of changes"
+- $ git commit (add description in new tab)
 
 Finally you can push it
-- $ git push origin main
+- $ git push
+- $ git push origin main (does the same thing?)
